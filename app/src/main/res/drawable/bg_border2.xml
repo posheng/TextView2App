@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+	<!--設定圓角矩形的圓角半徑-->
+   	<corners android:topLeftRadius="20px"
+    android:topRightRadius="5px"
+    android:bottomRightRadius="20px"
+    android:bottomLeftRadius="5px"/>
+	<!--設定邊框的寬度和顏色-->
+	<stroke android:width="4px" android:color="#f0f" />
+	<!--設定使用漸層背景色，使用Sweep類型的漸層，顏色從紅色->綠色->藍色-->
+	<gradient android:startColor="#f00"
+	    android:centerColor="#0f0"
+	    android:endColor="#00f"
+	    android:type="sweep"/>
+</shape>

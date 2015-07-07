@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--透過android:background指定背景-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border"
+        android:text="帶邊框的Text"
+        android:textSize="24pt" />
+    <!--透過android:drawableLeft繪製一張圖片-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border2"
+        android:text="圓角邊框、漸層背景的Text"
+        android:textSize="24pt" />
+
+</LinearLayout>
